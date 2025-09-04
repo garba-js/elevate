@@ -300,8 +300,44 @@ li a {
   text-align: center;
 }
 
+.slide {
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.28);
+
+}
+
 .slide img {
   width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  left: 24px;
+  bottom: 9rem;
+}
+
+
+.next {
+  cursor: pointer;
+  position: relative;
+  left: 16.3rem;
+  bottom: 9rem;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .about {
