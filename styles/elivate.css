@@ -312,20 +312,6 @@ li a {
   width: 100%;
 }
 
-.prev, .next {
-  cursor: pointer;
-  position: relative;
-  left: 24px;
-  bottom: 9rem;
-}
-
-
-.next {
-  cursor: pointer;
-  position: relative;
-  left: 16.3rem;
-  bottom: 9rem;
-}
 
 
 
