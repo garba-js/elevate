@@ -87,6 +87,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
     padding: 0 5rem;
+    padding-bottom: 2rem;
     background-color: #eee;
     margin-bottom: 1rem;
 }
@@ -97,13 +98,13 @@
 }
 
 .card {
-    background-color: #ff62004f;
     padding: 2rem;
     border-radius: 10px;
 }
 
 .mission {
-    margin: 2.5rem;
+    padding: 2.5rem;
+
 }
 
 .mission-statement {
@@ -119,7 +120,6 @@
 }
 
 .container {
-    background-color: #e05500;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -136,10 +136,12 @@
   max-width: 1200px;      
 }
 
+/* footer ________________________________ */
+
 footer {
-  max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 0 2rem;
 }
 
 .newsletter {
@@ -156,6 +158,7 @@ footer {
   display: grid;
   grid-template-columns: 350px 1fr 1fr;
   gap: 20px;
+  padding: 0 5rem;
 }
 
 

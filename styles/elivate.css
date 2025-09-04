@@ -1,3 +1,11 @@
+
+:root {
+    --primary-color: #D98C4C;
+    --secondary-color: #4C312C;
+
+}
+
+
 * {
     box-sizing: border-box; 
     font-family: "Roboto", sans-serif;
@@ -99,7 +107,7 @@ li a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* centers horizontally & vertically */
+  transform: translate(-50%, -50%); 
   text-align: center;
   color: white;
   z-index: 2;
@@ -135,7 +143,7 @@ li a {
   margin: 0 10px;
   padding: 12px 24px;
   border: none;
-  background: #ff6600;
+  background: var(--primary-color);
   color: white;
   font-size: 1rem;
   border-radius: 5px;
@@ -143,7 +151,7 @@ li a {
 }
 
 .hero-content button:hover {
-  background: #e05500;
+  background: var(--secondary-color);
 }
 
 
@@ -168,7 +176,7 @@ li a {
 .our-impact button {
     margin-top: 10px;
     font-size: 1rem;
-    background: #ff6600;
+    background: var(--primary-color);
     color: #ddd;
     padding: 12px 24px;
     border: none;
@@ -186,15 +194,31 @@ li a {
     width: 100%;
 }
 
+/* how you can help ________________________________ */
+
+.help {
+  background-color: #eee;
+}
+
 .help h2 {
     text-align: center;
 }
 
+.help button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  color: #fff;
+}
+
 .card {
-    background-color: #e05500;
+    background-color: #fff;
     padding: 1.5rem;
     border-radius: 10px;
-    margin: .5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+
 }
 
 .success_story {
@@ -203,8 +227,10 @@ li a {
   background: #f9f9f9;
 }
 
+/* Mission ________________________________ */
 .mission {
     margin: 1rem;
+    background-color: var(--primary-color);
 }
 
 .mission-statement {
@@ -223,9 +249,10 @@ li a {
 }
 
 .container {
-    background-color: #e05500;
+    background-color: var(--secondary-color);
     padding: 1rem;
     border-radius: 10px;
+    color: #fff;
 }
 
 .partners-logo {
@@ -245,8 +272,11 @@ li a {
   margin: 0 auto;
 }
 
+/* footer ________________________________ */
+
+
 footer {
-  background-color: #ca7947;
+  background-color: var(--primary-color);
   padding: 0 1rem;
 }
 
