@@ -131,10 +131,33 @@
 }
 
 .partners-logo {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 2fr)); /* each logo cell */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 2fr)); 
   padding: 1rem;
-  max-width: 1200px;      /* keeps it wide but not too stretched */
+  max-width: 1200px;      
 }
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.service-section {
+  display: grid;
+  grid-template-columns: 350px 1fr 1fr;
+  gap: 20px;
+}
+
 
 
 }
