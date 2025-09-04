@@ -62,10 +62,6 @@
         font-size: 1.6rem;
     }
 
-    .hero-content button:hover {
-        background: var(--primary-color);
-    }
-
     /* Our challenges section ________________________________ */
 .our-challenges-container{
     background-color: #eee;

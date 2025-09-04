@@ -142,7 +142,7 @@ li a {
   margin-bottom: 1.5rem;
 }
 
-.hero-content button {
+.hire {
   margin: 0 10px;
   padding: 12px 24px;
   border: none;
@@ -151,10 +151,25 @@ li a {
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: 600;
+}
+
+.volunteer {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
 }
 
 .hero-content button:hover {
   background: var(--secondary-color);
+}
+
+.volunteer:hover {
+  background-color: var(--secondary-color);
 }
 
 
@@ -343,7 +358,8 @@ li a {
 
 /* Mission ________________________________ */
 .mission {
-    margin: 1rem;
+  margin-top: 1rem;
+    padding: 1rem;
     background-color: var(--primary-color);
 }
 
@@ -351,7 +367,14 @@ li a {
     align-items: center;
     text-align: center;
     margin: 0 1rem;
+    color: white;
 }
+
+.mission-statement h3 {
+  padding-top: 1rem;
+}
+
+
 
 .mission_points {
   display: grid;
@@ -392,7 +415,7 @@ li a {
 
 
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   padding: 0 1rem;
 }
 
@@ -407,29 +430,34 @@ footer {
 .newsletter p {
   text-align: center;
   font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 0;
+  color: white;
+  border: 1px solid white;
 }
 
 .newsletter button {
-  font-size: 1.2rem;
-  padding: .8rem;
+  font-size: 1rem;
+  padding: .5rem;
   align-items: center;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
   border: none;
   border-radius: 4px;
-
-
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .social {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   margin: auto;
 }
 
 .social img {
-    width: 5em;
+    width: 4em;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -443,5 +471,6 @@ footer {
 
 .services, .contactus {
   padding: 1rem;
+  color: white;
 }
 
