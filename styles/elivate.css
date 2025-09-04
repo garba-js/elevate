@@ -294,12 +294,30 @@ li a {
   margin-top: 8px;
 }
 
+/* Success story ________________________________ */
 
-.success_story {
-  display: block;
-  padding: 2rem 1rem;
-  background: #f9f9f9;
+.slideshow-container h1 {
+  text-align: center;
 }
+
+.slide img {
+  width: 100%;
+}
+
+.about {
+  padding: 5px 1rem;
+}
+
+.about h3,
+.about p,
+.about h4{
+  margin: 0;
+}
+
+.about h3 {
+  margin-bottom: 1rem;
+}
+
 
 /* Mission ________________________________ */
 .mission {
