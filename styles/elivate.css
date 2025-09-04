@@ -191,9 +191,11 @@ li a {
 }
 
 .stats img{
-    width: 100%;
+    width: 70%;
     padding: 40px;
-}
+    display: block;
+    margin: 0 auto;
+  }
 
 .stats p {
   margin: 10px 0;
@@ -234,8 +236,10 @@ li a {
 }
 
 .statistics img{
-    width: 100%;
+    width: 70%;
     padding: 40px;
+    display: block;
+    margin: 0 auto;
 }
 
 .statistics div {
