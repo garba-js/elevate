@@ -194,7 +194,7 @@ li a {
     background-color: #e05500;
     padding: 1.5rem;
     border-radius: 10px;
-    margin: 1.5rem;
+    margin: .5rem;
 }
 
 .success_story {
@@ -223,6 +223,23 @@ li a {
     background-color: #e05500;
     padding: 1rem;
     border-radius: 10px;
+}
+
+.partners-logo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)); /* each logo cell */
+  gap: .5rem;              /* spacing between logos */
+  align-items: center;    /* vertically center logos */
+  justify-items: center;  /* horizontally center logos */
+  padding: 1rem;
+  max-width: 400px;      /* keeps it wide but not too stretched */
+  margin: 0 auto;         /* center on page */
+}
+
+.partners-logo img {
+  max-width: 100%;       /* limit logo size */
+  height: auto;
+  margin: 0 auto;
 }
 
 

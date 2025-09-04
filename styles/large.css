@@ -87,8 +87,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
     padding: 0 5rem;
-   
     background-color: #eee;
+    margin-bottom: 1rem;
 }
 
 .help h2 {
@@ -114,7 +114,7 @@
 
 .mission_points {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px; 
 }
 
@@ -123,6 +123,19 @@
     padding: 1rem;
     border-radius: 10px;
 }
+
+.details {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.partners-logo {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 2fr)); /* each logo cell */
+  padding: 1rem;
+  max-width: 1200px;      /* keeps it wide but not too stretched */
+}
+
 
 }
 
