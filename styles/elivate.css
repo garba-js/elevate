@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box; 
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto 50px;
+  gap: 5px;
+  align-items: center;
+  padding: 5px 16px;
+  border-bottom: solid 1px #ddd;
+  margin-top: 1.5rem;
+}
+
+/* Hamburger icon */
+.hamburger::before {
+  content: "\2630"; /* ☰ */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.hamburger.show::before {
+  content: "\00D7"; /* × */
+  font-size: 1.5rem;
+}
+
+/* _____________________________________ Navigation bar_______________________________________________*/
+.thead {
+    display: grid;
+    border-bottom: solid 1px #cdcccc;
+}
+
+.navigation {
+    display: none;
+    margin-bottom: 1rem;
+}
+
+.navigation.show {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 5px 0;
+    margin: 5px;
+}
+
+li {
+    margin: 10px;
+}
+
+li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid #a6a0a0;
+    padding: .5rem;
+    margin: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+.current li.active {
+    background-color: #ff6600;
+}
+
+.navigation a:hover {
+    background-color: #ca7947;
+    color: #fff;
+}
+
+
+#nav-button {
+ 
+  top: 53px;
+  right: 50px;
+  z-index: 1000; /* above overlay */
+  color: white;
+  background-color: black;
+}
+
+
+/* hero section _______________________________________________ */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 90vh; /* adjust as needed */
+  overflow: hidden;
+}
+
+.hero-container img.hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes image fill nicely */
+}
+
+/* Text overlay */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* centers horizontally & vertically */
+  text-align: center;
+  color: white;
+  z-index: 2;
+  max-width: 1600px;
+  padding: 0px;
+  width: 90%;
+}
+
+/* overlay for readability */
+.hero-container::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* Text styles */
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content button {
+  margin: 0 10px;
+  padding: 12px 24px;
+  border: none;
+  background: #ff6600;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background: #e05500;
+}
+
+
+/* Our challenges section ________________________________ */
+.our-challenges-container {
+    background-color: #eee;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.our-challenges h2,
+.our-challenges p,
+.impact {
+    text-align: left;
+}
+
+.stats img {
+    width: 100%;
+}
+
+.our-challenges-container button,
+.our-impact button {
+    margin-top: 10px;
+    font-size: 1rem;
+    background: #ff6600;
+    color: #ddd;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* Our impact ________________________________ */
+.our-impact {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.story img {
+    width: 100%;
+}
+
+.help h2 {
+    text-align: center;
+}
+
+.card {
+    background-color: #e05500;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.success_story {
+  display: block;
+  padding: 2rem 1rem;
+  background: #f9f9f9;
+}
+
+.mission {
+    margin: 1rem;
+}
+
+.mission-statement {
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.mission_points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px; 
+}
+
+.container {
+    background-color: #e05500;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
