@@ -1,6 +1,12 @@
 /* ===== Media Query for larger screens ===== */
 @media screen and (min-width: 768px) {
 
+
+  :root {
+    --primary-color: #D98C4C;
+    --secondary-color: #4C312C;
+
+}
       .thead {
     display: grid;
     grid-template-columns: 280px 1fr;
@@ -57,7 +63,7 @@
     }
 
     .hero-content button:hover {
-        background: #e05500;
+        background: var(--primary-color);
     }
 
     /* Our challenges section ________________________________ */
@@ -68,6 +74,20 @@
 
 .our-impact {
     padding: 4rem 8rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 1rem 5rem;
+}
+
+.statistics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 1rem 4rem;
 }
 
 .story {
@@ -131,7 +151,7 @@
 }
 
 .partners-logo {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 2fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1.5fr)); 
   padding: 1rem;
   max-width: 1200px;      
 }

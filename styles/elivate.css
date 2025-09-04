@@ -128,9 +128,8 @@ li a {
   z-index: 1;
 }
 
-/* Text styles */
 .hero-content h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
@@ -168,26 +167,62 @@ li a {
     text-align: left;
 }
 
-.stats img {
-    width: 100%;
+.stats {
+  display: grid;
+  padding: 1rem;
 }
+
+.stats div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: .6rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+}
+
+.stats img{
+    width: 100%;
+    padding: 40px;
+}
+
+.stats p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+
 
 .our-challenges-container button,
 .our-impact button {
     margin-top: 10px;
     font-size: 1rem;
     background: var(--primary-color);
-    color: #ddd;
+    color: #ffffff;
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
-    
 }
 
 /* Our impact ________________________________ */
 .our-impact {
     padding: 1.5rem;
     font-size: 1.5rem;
+}
+
+.statistics img{
+    width: 100%;
+    padding: 40px;
+}
+
+.statistics div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: .6rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.statistics p {
+  margin: 10px 0;
+  text-align: center;
 }
 
 .story img {
@@ -209,11 +244,11 @@ li a {
   border: none;
   padding: 10px;
   border-radius: 3px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .card {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 1.5rem;
     border-radius: 10px;
     margin: 1rem;
@@ -252,7 +287,7 @@ li a {
     background-color: var(--secondary-color);
     padding: 1rem;
     border-radius: 10px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .partners-logo {
@@ -298,6 +333,10 @@ footer {
   padding: .8rem;
   align-items: center;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 4px;
+
 
 }
 
