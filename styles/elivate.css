@@ -1,12 +1,11 @@
-
 :root {
-    --primary-color: #D98C4C;
-    --secondary-color: #4C312C;
+  --primary-color: #D98C4C;
+  --secondary-color: #4C312C;
 }
 
 * {
-    box-sizing: border-box; 
-    font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -37,61 +36,63 @@ header {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .hamburger.show::before {
-  content: "\00D7"; /* × */
+  content: "\00D7";  /* × */
   font-size: 1.5rem;
 }
 
 /* _____________________________________ Navigation bar_______________________________________________*/
 .thead {
-    display: grid;
-    border-bottom: solid 1px #cdcccc;
+  display: grid;
+  border-bottom: solid 1px #cdcccc;
 }
 
 .navigation {
-    display: none;
-    margin-bottom: 1rem;
+  display: none;
+  margin-bottom: 1rem;
 }
 
 .navigation.show {
-    display: block;
+  display: block;
 }
 
 ul {
-    list-style: none;
-    padding: 5px 0;
-    margin: 5px;
+  list-style: none;
+  padding: 5px 0;
+  margin: 5px;
 }
 
 li {
-    margin: 10px;
+  margin: 10px;
 }
 
 li a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    border-bottom: 1px solid #a6a0a0;
-    padding: .5rem;
-    margin: 0;
-    color: black;
-    box-sizing: border-box;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  border-bottom: 1px solid #a6a0a0;
+  padding: .5rem;
+  margin: 0;
+  color: black;
+  box-sizing: border-box;
 }
 
 .current li.active {
-    background-color: #ff6600;
+  background-color: #ff6600;
 }
 
 .navigation a:hover {
-    background-color: #ca7947;
-    color: #fff;
+  background-color: #ca7947;
+  color: #fff;
 }
 
 
 #nav-button {
   top: 53px;
   right: 50px;
-  z-index: 1000; /* above overlay */
+  z-index: 1000;
+  /* above overlay */
   color: white;
   background-color: var(--secondary-color);
   border: none;
@@ -102,14 +103,16 @@ li a {
 .hero-container {
   position: relative;
   width: 100%;
-  height: 90vh; /* adjust as needed */
+  height: 90vh;
+  /* adjust as needed */
   overflow: hidden;
 }
 
 .hero-container img.hero {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* makes image fill nicely */
+  object-fit: cover;
+  /* makes image fill nicely */
 }
 
 /* Text overlay */
@@ -117,7 +120,7 @@ li a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   z-index: 2;
@@ -130,11 +133,11 @@ li a {
 .hero-container::before {
   content: "";
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 0;
-  width: 100%; 
+  width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
@@ -142,6 +145,7 @@ li a {
   font-size: 2.5rem;
   margin-bottom: 5px;
 }
+
 .hero-content h3 {
   font-size: 1rem;
   margin: 0;
@@ -184,16 +188,16 @@ li a {
 
 /* Our challenges section ________________________________ */
 .our-challenges-container {
-    background-color: #eee;
-    padding: 1.5rem;
-    font-size: 1.5rem;
+  background-color: #eee;
+  padding: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .our-challenges h2,
 .our-challenges p,
 .impact {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 .our-challenges p {
@@ -208,18 +212,18 @@ li a {
 }
 
 .stats div {
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin: .6rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: .6rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
 }
 
-.stats img{
-    width: 70%;
-    padding: 40px;
-    display: block;
-    margin: 0 auto;
-  }
+.stats img {
+  width: 70%;
+  padding: 40px;
+  display: block;
+  margin: 0 auto;
+}
 
 .stats p {
   margin: 10px 0;
@@ -229,48 +233,48 @@ li a {
 
 .our-challenges-container button,
 .our-impact button {
-    display: block;
-    margin: 0 auto;
-    font-size: 1rem;
-    background: var(--primary-color);
-    color: #ffffff;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  font-size: 1rem;
+  background: var(--primary-color);
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
 }
 
 /* Our impact ________________________________ */
 .our-impact {
-    padding: 1.5rem;
-    font-size: 1.5rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
 }
 
-.impact h2{
-    margin: 0;
+.impact h2 {
+  margin: 0;
 }
 
 .impact p {
   margin-top: 8px;
 }
 
-.statistics{
+.statistics {
   display: grid;
   gap: 10px;
   padding: 5px;
 }
 
-.statistics img{
-    width: 70%;
-    padding: 40px;
-    display: block;
-    margin: 0 auto;
+.statistics img {
+  width: 70%;
+  padding: 40px;
+  display: block;
+  margin: 0 auto;
 }
 
 .statistics div {
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin: .6rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: .6rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .statistics p {
@@ -279,18 +283,17 @@ li a {
 }
 
 .story img {
-    width: 100%;
+  width: 100%;
 }
 
 /* how you can help ________________________________ */
-
 .help {
   background-color: #eee;
   padding: 1rem 0;
 }
 
 .help h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .help button {
@@ -304,11 +307,11 @@ li a {
 }
 
 .card {
-    background-color: #ffffff;
-    padding: 1.5rem;
-    border-radius: 10px;
-    margin: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
 }
 
 .card h3 {
@@ -320,17 +323,15 @@ li a {
 }
 
 /* Success story ________________________________ */
-
 .slideshow-container h1 {
   text-align: center;
 }
 
 .slide {
-    padding: 1.5rem;
-    border-radius: 10px;
-    margin: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.28);
-
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.28);
 }
 
 .slide img {
@@ -354,7 +355,7 @@ li a {
 
 .about h3,
 .about p,
-.about h4{
+.about h4 {
   margin: 0;
 }
 
@@ -362,37 +363,38 @@ li a {
   margin-bottom: 1rem;
 }
 
-
 /* Mission ________________________________ */
 .mission {
   margin-top: 1rem;
-    padding: 1rem;
-    background-color: var(--primary-color);
+  padding: 1rem;
+  background-color: var(--primary-color);
 }
 
 .mission-statement {
-    align-items: center;
-    text-align: center;
-    margin: 0 1rem;
-    color: white;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  color: white;
 }
 
 .mission-statement h3 {
   padding-top: rem;
 }
+
 .mission-statement h2 {
   margin: 0;
+  padding-top: 1rem;
 }
+
 .mission-statement p {
   margin-top: 5px;
 }
 
-
-
 .mission_points {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px; 
+  gap: 10px;
   padding: 1rem;
 }
 
@@ -401,32 +403,30 @@ li a {
 }
 
 .container {
-    background-color: var(--secondary-color);
-    padding: 1rem;
-    border-radius: 10px;
-    color: #ffffff;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
 .partners-logo {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)); /* each logo cell */
-  gap: .5rem;              /* spacing between logos */
-  align-items: center;    /* vertically center logos */
-  justify-items: center;  /* horizontally center logos */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  gap: .5rem;
+  align-items: center;
+  justify-items: center;
   padding: 1rem;
-  max-width: 400px;      /* keeps it wide but not too stretched */
-  margin: 0 auto;         /* center on page */
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .partners-logo img {
-  max-width: 100%;       /* limit logo size */
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
 /* footer ________________________________ */
-
-
 footer {
   background-color: var(--secondary-color);
   padding: 0 1rem;
@@ -434,7 +434,7 @@ footer {
 
 .newsletter {
   display: grid;
-  margin:0 auto;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
@@ -470,9 +470,9 @@ footer {
 }
 
 .social img {
-    width: 4em;
-    margin: 0 auto;
-    padding: 0 10px;
+  width: 4em;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .service-section img {
@@ -482,8 +482,8 @@ footer {
   padding: 1rem;
 }
 
-.services, .contactus {
+.services,
+.contactus {
   padding: 1rem;
   color: white;
 }
-
