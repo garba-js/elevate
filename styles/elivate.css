@@ -275,7 +275,7 @@ li a {
 
 .help {
   background-color: #eee;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .help h2 {
