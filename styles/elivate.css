@@ -2,9 +2,7 @@
 :root {
     --primary-color: #D98C4C;
     --secondary-color: #4C312C;
-
 }
-
 
 * {
     box-sizing: border-box; 
@@ -14,6 +12,14 @@
 
 p {
   font-size: 14px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 header {
