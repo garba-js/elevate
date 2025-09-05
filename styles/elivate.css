@@ -337,9 +337,6 @@ li a {
   width: 100%;
 }
 
-
-
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -381,7 +378,13 @@ li a {
 }
 
 .mission-statement h3 {
-  padding-top: 1rem;
+  padding-top: rem;
+}
+.mission-statement h2 {
+  margin: 0;
+}
+.mission-statement p {
+  margin-top: 5px;
 }
 
 
