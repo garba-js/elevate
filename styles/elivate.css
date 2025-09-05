@@ -89,12 +89,12 @@ li a {
 
 
 #nav-button {
- 
   top: 53px;
   right: 50px;
   z-index: 1000; /* above overlay */
   color: white;
-  background-color: black;
+  background-color: var(--secondary-color);
+  border: none;
 }
 
 
