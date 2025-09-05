@@ -16,6 +16,10 @@ h3 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
       .thead {
     display: grid;
     grid-template-columns: 280px 1fr;
