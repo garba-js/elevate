@@ -25,29 +25,131 @@
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="project.html">Projects</a></li>
-                <li><a href="c">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
-        <!-- Hero Section -->
-        <div class="hero">
-            <picture>
-                <source media="(min-width: 400px)" srcset="images/hero_large.jpg">
-                <source media="(min-width: 300px)" srcset="images/freelancer_headshot.webp">
-                <img src="images/freelancer_headshot.webp" alt="freelancer headshot" style="width:100%; height:auto;">
-            </picture>
+        <!-- home/ Hero Section -->
+        <section id="home">
+            <div class="hero">
+                <picture>
+                    <source media="(min-width: 400px)" srcset="images/hero_large.jpg">
+                    <source media="(min-width: 300px)" srcset="images/freelancer_headshot.webp">
+                    <img src="images/freelancer_headshot.webp" alt="freelancer headshot"
+                        style="width:100%; height:auto;">
+                </picture>
 
-            <div class="description">
-                <h2>Developer Name</h2>
-                <h3>Professional Title</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam nostrum officia minima,
-                    vitae dolorem. Ipsam aut, velit, quidem inventore nisi vero excepturi unde, ut suscipit saepe dicta!
-                    Accusantium, pariatur.
-                </p>
-                <button>Hire Me</button>
+                <div class="description">
+                    <h2>Developer Name</h2>
+                    <h3>Professional Title</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam nostrum officia
+                        minima,
+                        vitae dolorem. Ipsam aut, velit, quidem inventore nisi vero excepturi unde, ut suscipit saepe
+                        dicta!
+                        Accusantium, pariatur.
+                    </p>
+                    <button>Hire Me</button>
+                </div>
             </div>
-        </div>
+        </section>
+
+
+        <!-- About me -------------------------- -->
+
+        <section id="about" class="about">
+            <h2> John Doe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vitae accusantium, ducimus quia autem fuga
+                voluptatibus quam voluptatum suscipit debitis aperiam, repellat quos ratione quod earum quo. Quasi,
+                expedita incidunt.</p>
+
+        </section>
+        <!-- Skills section -------------------------- -->
+
+        <section id="skills" class="skills">
+            <h2>My skills</h2>
+            <div >
+                <h3 class=>HTML</h3>
+                <div class="skill-bar"><span class="html"></span>
+                </div>
+            </div>
+            <div>
+                <h3>CSS</h3>
+                <div class="skill-bar"><span class="css"></span>
+                </div>
+            </div>
+            <div>
+                <h3>GRAPHIC DESIGN</h3>
+                <div class="skill-bar"><span class="design"></span>
+                </div>
+            </div>
+            <div>
+                <h3>JAVASCRIPT</h3>
+                <div class="skill-bar"><span class="javascript"></span>
+                </div>
+            </div>
+            <div>
+                <h3>VIDEO EDITING</h3>
+                <div class="skill-bar"><span class="editing"></span>
+                </div>
+            </div>
+        </section>
+
+<!-- Project section -------------------------- -->
+        <section id="projects" class="projects-card">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/blank.jpg" alt="">
+                <p>Project One</p>
+                <p>The project the project the project</p>
+            </div>
+            <div class="project">
+                <img src="images/blank.jpg" alt="">
+                <p>Project Two</p>
+                <p>The project the project the project</p>
+            </div>
+            <div class="project">
+                <img src="images/blank.jpg" alt="">
+                <p>Project Three</p>
+                <p>The project the project the project</p>
+            </div>
+        </section>
+
+        <!-- contact section -------------------------- -->
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="info">
+                <div class="info-card">
+                    <img src="images/linkedin_logo.webp" alt="">
+                    <p>Official Location</p>
+                </div>
+                <div class="info-card">
+                    <img src="" alt="">
+                    <p>09111111110001</p>
+                </div>
+                <div class="info-card">
+                    <img src="" alt="">
+                    <p>sample@gmail.com</p>
+                </div>
+            </div>
+            <form action="#">
+                <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <input type="message" id="message" name="message" required>
+                </fieldset>
+            </form>
+            <button>Submit</button>
+        </section>
+
+
+
 
         <!-- Footer -->
         <footer>
