@@ -154,8 +154,8 @@ margin-bottom: 1rem;
 .project {
   padding: 1rem;
   background-color: #ffff;
-  margin: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.37);
   border-radius: 5px;
 }
 
@@ -164,9 +164,83 @@ margin-bottom: 1rem;
   border-radius: 8px;
 }
 
-
 /* contact ________________________*/
+.contact {
+  background-color: #a6a0a0;
+}
 
+.info-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.info-card img {
+  width: 3em;
+  margin: 0 0 14px 0;
+}
+
+.info-card p {
+  margin: 0 0 14px 0;
+}
+
+/* form___________*/
+form {
+  max-width: 600px;
+  margin: 0;
+}
+
+form p {
+  margin-bottom: 0;
+}
+
+legend {
+  padding: 20px;
+  font-size: 1rem;
+}
+
+
+fieldset {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-item {
+  display: grid;
+  gap: 1rem;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.form-item label {
+  margin: 0;
+}
+
+input {
+  padding: .7rem;
+  margin: 0;
+}
+
+.message {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+textarea {
+  margin: 0 1rem 2rem 1rem;
+  padding: 1rem;
+}
+
+.submit {
+  margin: 1.4rem 2rem;
+  background-color: black;
+  color: yellow;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+}
 
 
 /* footer ________________________*/
