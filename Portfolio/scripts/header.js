@@ -1,10 +1,9 @@
-const navButton = document.querySelector('#nav-button');
-const navBar = document.querySelector('#nav-bar');
+const navButton = document.getElementById('nav-button');
+const navBar = document.querySelector('.navigation');
 
 navButton.addEventListener('click', () => {
-  navButton.classList.toggle('show');
-  navBar.classList.toggle('show');
- 
+    navBar.classList.toggle('show');  // toggles overlay
+    navButton.classList.toggle('show'); // optional: change hamburger to cross
 });
 
 // ✅ Display Current Year and Last Modified Date

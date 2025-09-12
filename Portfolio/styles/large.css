@@ -1,0 +1,82 @@
+/* ===== Media Query for larger screens ===== */
+@media screen and (min-width: 768px) {
+
+* {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 3rem;
+}
+
+  .head {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+  }
+
+  header {
+    margin: 0 auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  .navigation ul {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+  }
+
+  li a {
+    border-bottom: none;
+    color: #000000;
+    margin: 0;
+  }
+
+  /* Hide hamburger on big screens */
+  #nav-button {
+    display: none;
+  }
+
+/* ===== Home ===== */
+h2 {
+    font-size: 4rem;
+}
+
+.description p,
+.about p,
+.projects-card p {
+    font-size: 1.6rem;
+}
+
+
+/* ===== Projects ===== */
+.projects-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-card h2 {
+    grid-column: 1 / 4;
+}
+
+/* ===== Skills ===== */
+.skills {
+    padding: 2rem;
+    align-items: flex-start;
+}
+
+
+/* ===== contact ===== */
+
+
+
+}

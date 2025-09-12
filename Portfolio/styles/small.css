@@ -8,6 +8,7 @@ section {
   min-height:  auto;
 }
 
+
 #home,
 #about, 
 #skills,
@@ -16,7 +17,7 @@ section {
   border-bottom: 1px solid #ddd;
 }
 
-p {font-size: 1.2rem}
+p {font-size: 1.05rem}
 h2 {font-size: 2.5rem;}
 h3 {font-size: 1.6rem;}
 
@@ -131,14 +132,14 @@ margin-bottom: 6px;
 
 .skill-bar {
   background-color: #eee;
-  border: 1px solid #ddd;
+  border: 1px solid gray;
   height: 35px;
   overflow: hidden;
 margin-bottom: 1rem;
 }
 
 .skill-bar span {
-  display: block;
+  display: inline-block;
   background-color: gray;
   height: 100%;
 }
@@ -166,19 +167,21 @@ margin-bottom: 1rem;
 
 /* contact ________________________*/
 .contact {
-  background-color: #a6a0a0;
+  background-color: #585656;
+  color: #fff;
 }
 
 .info-card {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  gap: 9px;
   margin: 0 auto;
   padding: 0;
 }
 
 .info-card img {
-  width: 3em;
+  width: 2em;
   margin: 0 0 14px 0;
 }
 
@@ -187,9 +190,11 @@ margin-bottom: 1rem;
 }
 
 /* form___________*/
-form {
-  max-width: 600px;
-  margin: 0;
+
+form,
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 form p {
